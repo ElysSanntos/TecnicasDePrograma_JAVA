@@ -1,0 +1,44 @@
+O presente trabalho consiste em implementar um jogo de FORCA.
+
+O arquivo Forca.java contem a main e sua implementação já está
+completa.
+
+O arquivo Teclado.java contem a classe Teclado com seus vários
+métodos para obter dados digitados no teclado. Sua implementação
+já está completa.
+
+TODOS os demais arquivos têm alguns métodos para serem
+implementados por vocês. Em cada método há um comentário para
+indicar o que aquele método deveria fazer, orientando sua
+implementação.
+
+Faça um programa de teste (classe com main) para testar
+COMPLETAMENTE cada uma das classes que contém métodos feitos
+por você. Isto é importante para que possamos ter certeza
+e que todas funcionam COMPLETAMENTE, uma vez que nem todos
+os métodos de todas elas sao usado na classe Forca.
+
+O presente trabalho pode ser feito em duplas ou trios e deve
+ser entregue até as 23h59 do dia 3/out; para ser considerado entregue,
+deverão ser entregues no Google Classroom:
+a) Um arquivo .ZIP com todas as classes produzidas por vocês
+   em suas duplas (ou trio); e
+b) VÁÁÁÁÁRIOS pequenos vídeos gravados, o primeiro, apresentando
+   a dupla ou trio, cada um dizendo seu nome se seu RA, para,
+   em seguida, apresentar, minuciosamente,  o funcionamento do
+   programa; cada um dos demais vídeos deve explicar, minuciosamente,
+   uma das classes do programa, focando, é claro, nos métodos desenvolvidos
+   por vocês. Os vídeos podem ser gravados em uma reunião do Meet
+   pela dupla ou trio, se alternando para compartilhar a tela e para
+   fornecer suas explicações sobre o tema do vídeo. A importância de gravar
+   vários vídeos em vez de gravar um só é que o Google Classroom não
+   aceita vídeos grandes demais.
+
+É de suprema importância que:
+1) Todos os membros das duplas ou trios tenham participação EQUÂNIME
+   (ou seja, equilibrada, aproximadamente igual) no vídeo
+   gravado; e
+2) Os vídeos devem ser numerados, para que eu saiba em que
+   sequência desejam que eu os assista;
+3) Apenas um aluno da dupla ou trio deve postar os materiais mencionados
+   nos ítens (a) e (b) acima.
