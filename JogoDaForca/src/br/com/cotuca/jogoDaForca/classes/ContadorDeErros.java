@@ -1,10 +1,10 @@
 package br.com.cotuca.jogoDaForca.classes;
 
-public class ControladorDeErros implements Cloneable
+public class ContadorDeErros implements Cloneable
 {
     private int qtdMax, qtdErr=0;
 
-    public ControladorDeErros (int qtdMax) throws Exception
+    public ContadorDeErros (int qtdMax) throws Exception
     {
 		// verifica se qtdMax fornecida não é positiva, lançando
 		// uma exceção.
@@ -28,7 +28,7 @@ public class ControladorDeErros implements Cloneable
     		{
     			if(this.qtdErr ==this.qtdMax)
     			{
-    				System.out.println("Foram  x tentativas .... a palavra era %d", this.qtdErr);
+    				System.out.printf("Foram  x tentativas .... a palavra era %d", this.qtdErr);
     			}
     			
     			System.exit(this.qtdMax);
@@ -40,7 +40,7 @@ public class ControladorDeErros implements Cloneable
 		}
     }
 
-    public boolean isAtingidoMaximoDeErros  ()
+    public boolean isAtingidoMaximoDeErros()
     {
         // returna true se this.qtdErr for igual a this.qtdMax,
         // ou então false, caso contrario.
@@ -84,7 +84,7 @@ public class ControladorDeErros implements Cloneable
     	return num;
     }
 
-    public ControladorDeErros (ControladorDeErros c) throws Exception // construtor de cópia
+    public ContadorDeErros (ControladorDeErros c) throws Exception // construtor de cópia
     {
         // copiar c.qtdMax e c.qtdErr, respectivamente em, this.qtdMax e this.qtdErr
     	
